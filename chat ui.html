@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat UI</title>
+    <style>
+        .container {
+            border: 5px solid black;
+            height: 80vh;
+            width: 25%;
+            margin: auto;
+            border-radius: 20px;
+            overflow: auto;
+            scrollbar-width: none;
+            background-color: rgb(234, 224, 144);
+            position: relative;
+        }
+
+        .container::-webkit-scrollbar {
+            display: none; /* Hide scrollbar for Chrome */
+        }
+
+        .c1 {
+            height: 10%;
+            background-color: green;
+            color: white;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            font-size: 30px;
+            padding: 10px;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-arrow {
+            margin-left: 10px;
+            color: black;
+        }
+
+        .friend-name {
+            /* flex-grow: 1; */
+            text-align: center;
+            font-weight: bold;
+            color: brown;
+        }
+
+        .icons {
+            display: flex;
+            gap: 10px;
+            margin-right: 10px;
+        }
+
+        .icons img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .date {
+            text-align: center;
+            background-color: darkgrey;
+            width: 28%;
+            margin: auto;
+            padding: 5px;
+            border-radius: 5px;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 12%;
+            z-index: 5;
+        }
+
+        .left {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .right {
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        span {
+            background-color: beige;
+            padding: 5px 10px;
+            display: inline-block;
+            border-radius: 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="c1">
+            <span class="back-arrow">&#8592;</span>
+            <span class="friend-name">Friend</span>
+            <div class="icons">
+                <img src="https://img.icons8.com/?size=100&id=9659&format=png&color=000000" alt="Profile">
+                <img src="https://img.icons8.com/?size=100&id=23259&format=png&color=ffffff" alt="Phone Call">
+            </div>
+        </div>
+
+        <div class="date">01-13-2025</div>
+        <div class="left"><span>hiiiii</span></div>
+        <div class="right"><span>hey hii</span></div>
+        <div class="left"><span>ela unnav?</span></div>
+        <div class="right"><span>niceee</span></div>
+        <div class="left"><span>em dng</span></div>
+        <div class="right"><span>nttg</span></div>
+
+        <!-- <div class="date">01-14-2025</div> -->
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuvee cheppu</span></div>
+
+        <div class="date">01-15-2025</div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+
+        <div class="date">01-16-2025</div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+
+        <div class="date">01-17-2025</div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+
+        <div class="date">01-18-2025</div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+
+        <div class="date">01-19-2025</div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+        <div class="left"><span>cheppu</span></div>
+        <div class="right"><span>nuve cheppu</span></div>
+    </div>
+</body>
+</html>
